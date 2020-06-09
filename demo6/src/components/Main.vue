@@ -360,14 +360,8 @@
               <el-button @click.native="select(play.code)" v-if="play.use==0" >{{play.name}}</el-button>
 
             </template>
-
-            玩家1
-            玩家2
-            玩家3
-            玩家4
-
-            摇色子
-            准备
+            <el-button @click.native="start"  >准备</el-button>
+            <el-button @click.native="yao"  >摇色子</el-button>
             观战
           </el-footer>
         </el-container>
@@ -394,6 +388,16 @@
       //this.send({type:"insert"});
     },
     methods: {
+
+      start:function(){
+        this.send({type:"start"});
+      },
+      yao:function(){
+        this.send({type:"yao"});
+      },
+      selectBtn:function(play){
+        this.send({type:"selectBtn",playcode:play.code});
+      },
       select:function(play){
         this.send({type:"select",playcode:play});
       },
@@ -427,6 +431,31 @@
         debugger
         if(data.type=='insert'){
           this.playList=data.playList;
+        }
+        if(data.select=='select'){
+            for(var i in  this.playList){
+               var p=this.playList[i];
+               if(p.code=data.code){
+                 p.use=1;
+               }
+            }
+        }
+        if(data.type=='start'){
+            for(var i in this.playList){
+              var play=this.playList[i];
+              for(var j in play.qizis){
+                var q=play.qizis[j];
+                $("q-"+q.w+"-"+q.h).append($("<button class='"+q.code+"'>a</button>"))
+              }
+            }
+        }
+
+        if(data.type=='yao'){
+            $(".IN").html(data.num);
+        }
+
+        if(data.type=='move'){
+
         }
 
       },

@@ -2,24 +2,66 @@ const http = require("http");
 const ws = require('nodejs-websocket');
 //12  [0,12][1,12][2,12][3,12]
 //声明4个玩家
+var shaizi=0;
+
 var play1={
   use:0,//是否有人使用
   admin:0,//房主
   name:"玩家1",
   code:"play1",
   qizis:[
-    {p:1,h:1,w:1},
-    {p:1,h:1,w:1},
-    {p:1,h:1,w:1},
-    {p:1,h:1,w:1},
-    {p:1,h:1,w:1},
-    {p:1,h:1,w:1},
+    {p:1,h:1,w:1,code:11},
+    {p:1,h:1,w:2,code:12},
+    {p:1,h:1,w:3,code:13},
+    {p:1,h:1,w:4,code:14},
+  ],
+  zb:0,//是否准备
+};
+var play2={
+  use:0,//是否有人使用
+  admin:0,//房主
+  name:"玩家2",
+  code:"play2",
+  qizis:[
+    {p:2,h:1,w:1,code:21},
+    {p:2,h:1,w:1,code:22},
+    {p:2,h:1,w:1,code:23},
+    {p:2,h:1,w:1,code:24},
+  ],
+  zb:0,//是否准备
+};
+var play3={
+  use:0,//是否有人使用
+  admin:0,//房主
+  name:"玩家3",
+  code:"play3",
+  qizis:[
+    {p:3,h:1,w:1,code:31},
+    {p:3,h:1,w:1,code:32},
+    {p:3,h:1,w:1,code:33},
+    {p:3,h:1,w:1,code:34},
+  ],
+  zb:0,//是否准备
+};
+var play4={
+  use:0,//是否有人使用
+  admin:0,//房主
+  name:"玩家4",
+  code:"play4",
+  qizis:[
+    {p:4,h:1,w:1,code:41},
+    {p:4,h:1,w:1,code:42},
+    {p:4,h:1,w:1,code:43},
+    {p:4,h:1,w:1,code:44},
   ],
   zb:0,//是否准备
 };
 var isopen=0;//房间状态； 1 开始， 0准备中
 var playList=[];
 playList.push(play1);
+//playList.push(play2);
+//playList.push(play3);
+//playList.push(play4);
 //封装发送消息的函数(向每个链接的用户发送消息)
 const sendServer = (data)=>{
 
@@ -33,6 +75,31 @@ const sendServerOne = (connect,data)=>{
   var   str=JSON.stringify(data);
   console.log(str);
   connect.sendText(str);
+};
+const playc2 = (playcode,qcode)=>{
+  var qs=playc(playcode).qizis;
+  for(var i in qs){
+     var q=qs[i];
+     if(q.code=qcode){
+       return q;
+     }
+  }
+}
+const playc = (playcode)=>{
+  var play=null;
+  if(playcode=="play1"){
+    play=play1;
+  }
+  if(playcode=="play2"){
+    play=play2;
+  }
+  if(playcode=="play3"){
+    play=play3;
+  }
+  if(playcode=="play4"){
+    play=play4;
+  }
+  return play;
 };
 const server = ws.createServer((connect)=>{
 
@@ -50,25 +117,36 @@ const server = ws.createServer((connect)=>{
 
         break;
       case 'select':
-        var play=null;
-        if(data.playcode=="play1"){
-          play=play1;
-        }
-        if(data.playcode=="play2"){
-          play=play2;
-        }
-        if(data.playcode=="play3"){
-          play=play3;
-        }
-        if(data.playcode=="play4"){
-          play=play4;
-        }
+        var play=playc(data.playcode);
         play.use=0;
-        connect.play=play;
-        sendServer();
+        connect.play=data.playcode;
+        sendServer({type:"select",code:data.playcode});
+        break;
+      case 'start':
+        playc(connect.play).zb=1;
+        isopen=1;
+        sendServer({type:"start",isopen:isopen});
+        break;
+      case 'yao':
+        if(shaizi==0){
+          var num =  Math.ceil(Math.random()*6);
+          shaizi=num;
+        }
+        sendServer({type:"yao",num:shaizi});
+        break;
+      case 'selectBtn':
+       var q= playc2(connect.play,data.playcode);
+        q.w+=shaizi;
+        if(q.w>=13){
+          q.h++;
+          q.w=q.w-13;
+        }
+       if(q.h>=4){
+         q.h=1;
+       }
+        sendServer({type:"move",btn:q});
         break;
       case 'button':
-
         break;
       default:
         break;
