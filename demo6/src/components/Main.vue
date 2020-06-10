@@ -8,349 +8,153 @@
       <el-main>
         <el-container>
           <el-main>
-            <table style="line-height: 50px;">
-              <tr>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-2-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-2-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-2-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-              </tr>
-              <tr>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black; background-color: black;" class="q-1-9">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-2-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-              </tr>
-              <tr>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-2-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-              </tr>
-              <tr>
-                <td class="q-1-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-2-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-2-9" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-2-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-              </tr>
-              <tr>
-                <td class="q-1-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-2-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-2-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-2-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-              </tr>
-              <tr>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-2-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-              </tr>
-              <tr>
-                <td class="q-4-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-2-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-              </tr>
-              <tr>
-                <td class="q-4-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-3-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-              </tr>
-              <tr>
-                <td class="q-4-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-4-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-4-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-3-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-3-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-3-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-              </tr>
-              <tr>
-                <td class="q-4-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-4-9" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-4-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-3-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-3-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-3-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-              </tr>
-              <tr>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-4-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-3-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-              </tr>
-              <tr>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-4-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-3-9" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-              </tr>
-              <tr>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td class="q-4-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-4-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-4-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-3-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-3-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-3-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td class="q-3-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
-                  &nbsp;
-                </td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-                <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td>
-              </tr>
-            </table>
+            <table style="line-height: 50px;"><tr><td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-1-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-1-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-1-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-1-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-2-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-2-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-2-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td></tr> <tr><td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-1-9" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-2-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-2-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td></tr> <tr><td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-1-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-2-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-2-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td></tr> <tr><td class="q-1-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-1-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-1-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-2-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-2-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-2-9" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-2-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td></tr> <tr><td class="q-1-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-1-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-1-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-2-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-2-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-2-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-2-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td></tr> <tr><td class="q-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-2-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-2-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td></tr> <tr><td class="q-4-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-1-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-1-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-1-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-1-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-1-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="IN" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-3-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-3-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-3-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-3-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="h-3-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-2-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td></tr> <tr><td class="q-4-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-4-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-3-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td></tr> <tr><td class="q-4-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-4-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-4-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-4-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-3-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-3-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-3-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td></tr> <tr><td class="q-4-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-4-9" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-4-6" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-4-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-3-7" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-3-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-3-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td></tr> <tr><td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-4-5" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-4-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-3-8" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td></tr> <tr><td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-4-4" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="h-4-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-3-9" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td></tr> <tr><td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td class="q-4-3" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-4-2" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-4-1" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-3-13" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-3-12" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-3-11" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td class="q-3-10" style="width: 50px; height: 50px; border: 1px solid black; background-color: black;">
+              &nbsp;
+            </td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td> <td style="width: 50px; height: 50px; border: 1px solid black;">&nbsp;</td></tr></table>
           </el-main>
           <el-footer>
 
@@ -371,6 +175,7 @@
 </template>
 
 <script>
+  import  $ from 'jquery'
   export default {
     name: 'Main',
     socket:null,
@@ -381,11 +186,10 @@
         msg: 'Welcome to Your Vue.js App'
       }
     },created () {
-      // 初始化
-      this.init()
+
     },mounted () {
       // 初始化
-      //this.send({type:"insert"});
+      this.init()
     },
     methods: {
 
@@ -396,13 +200,19 @@
         this.send({type:"yao"});
       },
       selectBtn:function(play){
-        this.send({type:"selectBtn",playcode:play.code});
+        this.send({type:"selectBtn",playcode:play});
       },
       select:function(play){
         this.send({type:"select",playcode:play});
       },
       login:function(){
-        this.send({type:"insert"});
+        debugger;
+        if(   this.socket.readyState==3){
+          this.init()
+        }else{
+          this.send({type:"insert"});
+        }
+
       },
       init: function () {
         if(typeof(WebSocket) === "undefined"){
@@ -431,6 +241,7 @@
         debugger
         if(data.type=='insert'){
           this.playList=data.playList;
+          this.$forceUpdate()
         }
         if(data.select=='select'){
             for(var i in  this.playList){
@@ -445,7 +256,7 @@
               var play=this.playList[i];
               for(var j in play.qizis){
                 var q=play.qizis[j];
-                $("q-"+q.w+"-"+q.h).append($("<button class='"+q.code+"'>a</button>"))
+                $(".q-"+q.h+"-"+q.w).append(this.getBtn(q))
               }
             }
         }
@@ -455,9 +266,19 @@
         }
 
         if(data.type=='move'){
-
+          var q=data.btn;
+          $("."+q.code).remove();
+          $(".q-"+q.h+"-"+q.w).append(this.getBtn(q))
         }
 
+      },getBtn(q){
+        var self=this;
+        var btn=$("<button class='"+q.code+"'>"+q.name+"</button>");
+        btn.click(function () {
+          var myclas=$(this).attr("class");
+          self.selectBtn(myclas);
+        })
+        return btn;
       },
       send: function (params) {
         var   str=JSON.stringify(params);

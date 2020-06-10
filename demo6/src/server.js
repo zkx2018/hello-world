@@ -10,10 +10,10 @@ var play1={
   name:"玩家1",
   code:"play1",
   qizis:[
-    {p:1,h:1,w:1,code:11},
-    {p:1,h:1,w:2,code:12},
-    {p:1,h:1,w:3,code:13},
-    {p:1,h:1,w:4,code:14},
+    {p:1,h:1,w:1,code:11,name:"狗"},
+    {p:1,h:1,w:2,code:12,name:"泽"},
+    {p:1,h:1,w:3,code:13,name:"鱼"},
+    {p:1,h:1,w:4,code:14,name:"光"},
   ],
   zb:0,//是否准备
 };
@@ -80,7 +80,7 @@ const playc2 = (playcode,qcode)=>{
   var qs=playc(playcode).qizis;
   for(var i in qs){
      var q=qs[i];
-     if(q.code=qcode){
+     if(q.code==qcode){
        return q;
      }
   }
@@ -131,19 +131,22 @@ const server = ws.createServer((connect)=>{
         if(shaizi==0){
           var num =  Math.ceil(Math.random()*6);
           shaizi=num;
+          console.log("yaoyaoyao");
         }
         sendServer({type:"yao",num:shaizi});
         break;
       case 'selectBtn':
        var q= playc2(connect.play,data.playcode);
+       console.log(q);
         q.w+=shaizi;
-        if(q.w>=13){
+        if(q.w>13){
           q.h++;
           q.w=q.w-13;
         }
-       if(q.h>=4){
+       if(q.h>4){
          q.h=1;
        }
+        shaizi=0;
         sendServer({type:"move",btn:q});
         break;
       case 'button':
