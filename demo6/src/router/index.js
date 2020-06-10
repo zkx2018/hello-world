@@ -14,6 +14,11 @@ const routes = [
     path: '/main',
     name: 'Main',
     component: MyMain
+  },
+  {
+    path: '/main2',
+    name: 'Main2',
+    component: MyMain
   }
 ]
 const router = new Router({
