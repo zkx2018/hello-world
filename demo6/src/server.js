@@ -23,10 +23,10 @@ var play2={
   name:"玩家2",
   code:"play2",
   qizis:[
-    {p:2,h:1,w:1,code:21},
-    {p:2,h:1,w:1,code:22},
-    {p:2,h:1,w:1,code:23},
-    {p:2,h:1,w:1,code:24},
+    {p:2,h:2,w:1,code:21,name:"4D"},
+    {p:2,h:2,w:2,code:22,name:"月"},
+    {p:2,h:2,w:3,code:23,name:"Mi"},
+    {p:2,h:2,w:4,code:24,name:"Ya"},
   ],
   zb:0,//是否准备
 };
@@ -36,10 +36,10 @@ var play3={
   name:"玩家3",
   code:"play3",
   qizis:[
-    {p:3,h:1,w:1,code:31},
-    {p:3,h:1,w:1,code:32},
-    {p:3,h:1,w:1,code:33},
-    {p:3,h:1,w:1,code:34},
+    {p:3,h:3,w:1,code:31,name:"Fe"},
+    {p:3,h:3,w:2,code:32,name:"只"},
+    {p:3,h:3,w:3,code:33,name:"梦"},
+    {p:3,h:3,w:4,code:34,name:"An"},
   ],
   zb:0,//是否准备
 };
@@ -49,19 +49,19 @@ var play4={
   name:"玩家4",
   code:"play4",
   qizis:[
-    {p:4,h:1,w:1,code:41},
-    {p:4,h:1,w:1,code:42},
-    {p:4,h:1,w:1,code:43},
-    {p:4,h:1,w:1,code:44},
+    {p:4,h:4,w:1,code:41,name:"Z"},
+    {p:4,h:4,w:2,code:42,name:"Z"},
+    {p:4,h:4,w:3,code:43,name:"Z"},
+    {p:4,h:4,w:4,code:44,name:"Z"},
   ],
   zb:0,//是否准备
 };
 var isopen=0;//房间状态； 1 开始， 0准备中
 var playList=[];
 playList.push(play1);
-//playList.push(play2);
-//playList.push(play3);
-//playList.push(play4);
+playList.push(play2);
+playList.push(play3);
+playList.push(play4);
 //封装发送消息的函数(向每个链接的用户发送消息)
 const sendServer = (data)=>{
 

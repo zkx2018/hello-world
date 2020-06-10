@@ -8,35 +8,199 @@
         <el-container>
           <el-main>
 
-            <table style="line-height: 50px;"><tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-10">
+            <table style="line-height: 50px;position:relative;">
+              <tr>
+                <td colspan="2" rowspan="2"  >&nbsp;</td> <td>&nbsp;</td> <td  >
               &nbsp;
-            </td> <td class="qp q-1-11">
+            </td> <td >
               &nbsp;
-            </td> <td class="qp q-1-12">
+            </td> <td  >
               &nbsp;
-            </td> <td class="qp q-1-13">
+            </td> <td  >
               &nbsp;
-            </td> <td class="qp q-2-1">
+            </td> <td  >
               &nbsp;
-            </td> <td class="qp q-2-2">
+            </td> <td  >
               &nbsp;
-            </td> <td class="qp q-2-3"><i class="el-icon-setting"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-9">
+            </td>
+               <td  ><i class="el-icon-setting"></i></td> <td>&nbsp;</td> <td  colspan="2" rowspan="2" >&nbsp;</td>  </tr>
+
+
+              <tr>
+
+                <td>&nbsp;</td> <td >
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q2 h-2-1">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-4">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td >
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-8">
+            </td> <td>&nbsp;</td> </tr>
+
+
+              <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td >
               &nbsp;
-            </td> <td>&nbsp;</td> <td class="qp q2 h-2-2">
+            </td> <td>&nbsp;</td> <td  >
               &nbsp;
-            </td> <td>&nbsp;</td> <td class="qp q-2-5">
+            </td> <td>&nbsp;</td> <td >
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td class="qp q-1-3"><i class="el-icon-setting"></i></td> <td class="qp q-1-4">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td  ><i class="el-icon-setting"></i></td> <td  >
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-7"><i class="el-icon-right"></i></td> <td><i class="el-icon-arrow-right"></i></td> <td class="qp q2 h-2-3">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td ><i class="el-icon-right"></i></td> <td><i class="el-icon-arrow-right"></i></td> <td  >
               &nbsp;
-            </td> <td><i class="el-icon-arrow-right"></i></td> <td class="qp q-2-6">
+            </td> <td><i class="el-icon-arrow-right"></i></td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td></tr> <tr><td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td ><i class="el-icon-bottom"></i></td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td></tr> <tr><td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-up"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-down"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td></tr> <tr><td  >
+              &nbsp;
+            </td> <td >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  ><i class="el-icon-star-off"></i></td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td >
+              &nbsp;
+            </td></tr> <tr><td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-up"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-down"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td></tr> <tr><td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td  ><i class="el-icon-top"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td></tr> <tr><td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td><i class="el-icon-arrow-left"></i></td> <td  >
+              &nbsp;
+            </td> <td><i class="el-icon-arrow-left"></i></td> <td  ><i class="el-icon-back"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td ><i class="el-icon-setting"></i></td></tr> <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>
+              &nbsp;
+            </td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+
+              <tr>
+
+                <td colspan="2" rowspan="2"  >&nbsp;</td>
+
+                <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td>    <td colspan="2" rowspan="2"  >&nbsp;</td></tr>
+
+              <tr>  <td>&nbsp;</td> <td  ><i class="el-icon-setting"></i></td> <td >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td  >
+              &nbsp;
+            </td> <td>&nbsp;</td>
+            </tr>
+            </table>
+
+            <table style="line-height: 50px;position:absolute;  top: 160px;">
+              <tr>
+                <td colspan="2" rowspan="2" class="q1">&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-10">
+                &nbsp;
+              </td> <td class="qp q-1-11">
+                &nbsp;
+              </td> <td class="qp q-1-12">
+                &nbsp;
+              </td> <td class="qp q-1-13">
+                &nbsp;
+              </td> <td class="qp q-2-1">
+                &nbsp;
+              </td> <td class="qp q-2-2">
+                &nbsp;
+              </td>
+                <td class="qp q-2-3"></td> <td>&nbsp;</td> <td  colspan="2" rowspan="2" class="q2">&nbsp;</td>  </tr>
+
+
+
+
+              <tr>
+
+                <td>&nbsp;</td> <td class="qp q-1-9">
+                &nbsp;
+              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q2 h-2-1">
+                &nbsp;
+              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-4">
+                &nbsp;
+              </td> <td>&nbsp;</td> </tr>
+
+
+              <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-8">
+                &nbsp;
+              </td> <td>&nbsp;</td> <td class="qp q2 h-2-2">
+                &nbsp;
+              </td> <td>&nbsp;</td> <td class="qp q-2-5">
+                &nbsp;
+              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td class="qp q-1-3"></td> <td class="qp q-1-4">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-7"></td> <td></td> <td class="qp q2 h-2-3">
+              &nbsp;
+            </td> <td></td> <td class="qp q-2-6">
               &nbsp;
             </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-9">
               &nbsp;
@@ -50,15 +214,15 @@
               &nbsp;
             </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q2 h-2-4">
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-7"><i class="el-icon-bottom"></i></td> <td class="qp q-2-8">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-7"></td> <td class="qp q-2-8">
               &nbsp;
             </td> <td>&nbsp;</td> <td class="qp q-2-11">
               &nbsp;
             </td></tr> <tr><td class="qp q-1-1">
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-up"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q2 h-2-5">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q2 h-2-5">
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-down"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-12">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-12">
               &nbsp;
             </td></tr> <tr><td class="qp q-4-13">
               &nbsp;
@@ -72,7 +236,7 @@
               &nbsp;
             </td> <td class="qp q1 h-1-5">
               &nbsp;
-            </td> <td class="IN"><i class="el-icon-star-off"></i></td> <td class="qp q3 h-3-5">
+            </td> <td class="IN"></td> <td class="qp q3 h-3-5">
               &nbsp;
             </td> <td class="qp q3 h-3-4">
               &nbsp;
@@ -86,15 +250,15 @@
               &nbsp;
             </td></tr> <tr><td class="qp q-4-12">
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-up"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-5">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-5">
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-arrow-down"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-1">
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-1">
               &nbsp;
             </td></tr> <tr><td class="qp q-4-11">
               &nbsp;
             </td> <td>&nbsp;</td> <td class="qp q-4-8">
               &nbsp;
-            </td> <td class="qp q-4-7"><i class="el-icon-top"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-4">
+            </td> <td class="qp q-4-7"></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-4">
               &nbsp;
             </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-6">
               &nbsp;
@@ -108,35 +272,46 @@
               &nbsp;
             </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-4-6">
               &nbsp;
-            </td> <td><i class="el-icon-arrow-left"></i></td> <td class="qp q4 h-4-3">
+            </td> <td></td> <td class="qp q4 h-4-3">
               &nbsp;
-            </td> <td><i class="el-icon-arrow-left"></i></td> <td class="qp q-3-7"><i class="el-icon-back"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-4">
+            </td> <td></td> <td class="qp q-3-7"></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-4">
               &nbsp;
-            </td> <td class="qp q-3-3"><i class="el-icon-setting"></i></td></tr> <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-4-5">
+            </td> <td class="qp q-3-3"></td></tr> <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-4-5">
               &nbsp;
             </td> <td>&nbsp;</td> <td class="qp q4 h-4-2">
               &nbsp;
             </td> <td>&nbsp;</td> <td class="qp q-3-8">
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-4-4">
-              &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-1">
-              &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-9">
-              &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-4-3"><i class="el-icon-setting"></i></td> <td class="qp q-4-2">
-              &nbsp;
-            </td> <td class="qp q-4-1">
-              &nbsp;
-            </td> <td class="qp q-3-13">
-              &nbsp;
-            </td> <td class="qp q-3-12">
-              &nbsp;
-            </td> <td class="qp q-3-11">
-              &nbsp;
-            </td> <td class="qp q-3-10">
-              &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr></table>
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+
+              <tr>
+
+                <td colspan="2" rowspan="2" class="q4">&nbsp;</td>
+
+                <td>&nbsp;</td> <td class="qp q-4-4">
+                &nbsp;
+              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-1">
+                &nbsp;
+              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-9">
+                &nbsp;
+              </td> <td>&nbsp;</td>    <td colspan="2" rowspan="2" class="q3">&nbsp;</td></tr>
+
+              <tr>  <td>&nbsp;</td> <td class="qp q-4-3"></td> <td class="qp q-4-2">
+                &nbsp;
+              </td> <td class="qp q-4-1">
+                &nbsp;
+              </td> <td class="qp q-3-13">
+                &nbsp;
+              </td> <td class="qp q-3-12">
+                &nbsp;
+              </td> <td class="qp q-3-11">
+                &nbsp;
+              </td> <td class="qp q-3-10">
+                &nbsp;
+              </td> <td>&nbsp;</td>
+              </tr>
+            </table>
+
           </el-main>
           <el-footer>
 
@@ -161,6 +336,7 @@
   table{
     border: 1px solid black;
     width: 758px;height: 758px;
+
   }
   td{
     width: 50px; height: 50px;
