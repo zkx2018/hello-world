@@ -303,7 +303,7 @@
             <template v-if="mycode!=null&&status!=3">
             <el-button @click.native="start"  >开始</el-button>
             </template>
-            <template v-if="mycode!=code&&status==3">
+            <template v-if="mycode==code&&status==3">
               <el-button @click.native="yao"   >摇色子</el-button>
             </template>
 
@@ -502,10 +502,12 @@
 
         var self=this;
         var btn=$("<button class='"+q.code+"' style='background-color: "+bcode+";width: 20px;height: 20px;padding: 0px;' >"+q.name+"</button>");
-        btn.click(function () {
-          var myclas=$(this).attr("class");
-          self.selectBtn(myclas);
-        })
+       if(this.mycode=="play"+q.p){
+         btn.click(function () {
+           var myclas=$(this).attr("class");
+           self.selectBtn(myclas);
+         })
+       }
         return btn;
       },
       send: function (params) {
