@@ -10,7 +10,7 @@ var play1={
   name:"玩家1",
   code:"play1",
   qizis:[
-    {p:1,h:0,w:0,code:11,name:"狗"},
+    {p:1,h:1,w:0,code:11,name:"狗"},
     {p:1,h:0,w:0,code:12,name:"泽"},
     {p:1,h:1,w:3,code:13,name:"鱼"},
     {p:1,h:1,w:4,code:14,name:"光"},
@@ -63,6 +63,7 @@ playList.push(play1);
 playList.push(play2);
 playList.push(play3);
 playList.push(play4);
+var playList2=playList;
 //封装发送消息的函数(向每个链接的用户发送消息)
 const sendServer = (data)=>{
 
@@ -92,8 +93,9 @@ const  next=(playcode)=>{
     nextcode='play1';
   }
   var play=  playc(nextcode);
+
   if(play.use==0){
-    next(play.code);
+    return  next(play.code);
   }else{
     return nextcode;
   }
@@ -128,7 +130,7 @@ const server = ws.createServer((connect)=>{
 
     connect.on('text',(str)=>{
     let data = JSON.parse(str);
-    console.log("服务器接收："+str);
+    console.log("服务器接收："+connect.play+"str:"+str);
       if(connect.play==null){
         switch (data.type)
         {
@@ -141,15 +143,35 @@ const server = ws.createServer((connect)=>{
 
             break;
           case 'select':
-            var play=playc(data.playcode);
-            play.use=1;
-            connect.play=data.playcode;
-            sendServer({type:"select",code:data.playcode});
+            if(isopen!=1){
+              var play=playc(data.playcode);
+              play.use=1;
+              connect.play=data.playcode;
+              sendServerOne(connect,{type:"select",code:data.playcode});
+              sendServer({type:"selectOne",code:data.playcode,u:1});
+            }
             break;
           case 'button':
             break;
           default:
             break;
+        }
+
+      }else{
+        if(isopen!=1){
+          switch (data.type)
+          {
+            case 'start':
+              isopen=1;
+              yaocode=next('play4');
+              sendServer({type:"start",isopen:isopen,code:yaocode});
+              break;
+
+            case 'button':
+              break;
+            default:
+              break;
+          }
         }
       }
       if(yaocode ==connect.play){
@@ -165,10 +187,20 @@ const server = ws.createServer((connect)=>{
             }
             break;
           case 'selectBtn':
+
             var q= playc2(connect.play,data.playcode);
-            if((q.w==0||q.h==0)&&shaizi==6){
-              q.w=q.p;// 起飞
-            }else{
+            if(q==null){
+              return;
+            }
+            if((q.w==0&&q.h==0)&&shaizi==6){
+              q.h=q.p;// 起飞
+              shaizi=0;
+            }else if((q.w==0&&q.h==0)&&shaizi!=6){
+                 return
+             } else{
+              if(q.w==0){
+                q.w=2;
+              }
               q.w+=shaizi;
               if(q.w>13){
                 q.h++;
@@ -193,33 +225,31 @@ const server = ws.createServer((connect)=>{
             break;
         }
       }
-      if(isopen!=1){
-        switch (data.type)
-        {
 
-          case 'start':
-           // playc(connect.play).zb=1;
-            isopen=1;
-            yaocode=next('play4');
-            sendServer({type:"start",isopen:isopen,code:yaocode});
-            break;
-
-          case 'button':
-            break;
-          default:
-            break;
-        }
-      }
 
   });
   //关闭链接的时候
   connect.on('close',()=>{
     //离开房间
-    sendServer({
-      type:'serverInformation',
-      message:'离开房间'
-    });
+    if( connect.play!=null){
+      var play=playc( connect.play);
+      play.use=0;
+      console.log("销毁玩家"+connect.play);
+      var cunt=0;
+      for(var i in  this.playList){
 
+        if(p.use!=0){
+          cunt++;
+        }
+      }
+      if(cunt==0){
+          isopen=0;
+        playList=playList2;
+      }else{
+        sendServer({type:"selectOne",code: connect.play,u:0});
+      }
+
+    }
   });
 
   //错误处理

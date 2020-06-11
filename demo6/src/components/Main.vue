@@ -1,7 +1,7 @@
 <template>
 
   <el-container>
-    <el-header>header</el-header>
+    <el-header><span :class="mycode">{{mycode}}</span></el-header>
     <el-container>
 <!--      <el-aside>aside</el-aside>-->
       <el-main>
@@ -295,16 +295,16 @@
             <template v-if="status==0">
               <el-button @click.native="login"   >连接</el-button>
             </template>
-            <template v-if="status==1">
+            <template v-if="mycode==null&&status!=3">
               <template v-for="play in playList" >
                 <el-button @click.native="select(play.code)" v-if="play.use==0" >{{play.name}}</el-button>
               </template>
             </template>
-            <template v-if="status==2">
+            <template v-if="mycode!=null&&status!=3">
             <el-button @click.native="start"  >开始</el-button>
             </template>
-            <template v-if="status==3">
-              <el-button @click.native="yao"  >摇色子</el-button>
+            <template v-if="mycode!=code&&status==3">
+              <el-button @click.native="yao"   >摇色子</el-button>
             </template>
 
           </el-footer>
@@ -327,16 +327,16 @@
   .qp{
     border: 2px solid black;
   }
-  .q1,.q-4-13,.q-4-9,.q-4-5,.q-4-1,.q-3-10,.q-3-6,.q-3-2,.q-2-11,.q-2-7,.q-2-3,.q-1-12,.q-1-8,.q-1-4{
+  .play1,.q1,.q-4-13,.q-4-9,.q-4-5,.q-4-1,.q-3-10,.q-3-6,.q-3-2,.q-2-11,.q-2-7,.q-2-3,.q-1-12,.q-1-8,.q-1-4{
     border:2px solid  #F56C6C;
   }
-  .q2,.q-1-13,.q-1-9,.q-1-5,.q-1-1,.q-4-10,.q-4-6,.q-4-2,.q-3-11,.q-3-7,.q-3-3,.q-2-12,.q-2-8,.q-2-4{
+  .play2,.q2,.q-1-13,.q-1-9,.q-1-5,.q-1-1,.q-4-10,.q-4-6,.q-4-2,.q-3-11,.q-3-7,.q-3-3,.q-2-12,.q-2-8,.q-2-4{
     border:2px solid   #E6A23C;
   }
-  .q3,.q-2-13,.q-2-9,.q-2-5,.q-2-1,.q-1-10,.q-1-6,.q-1-2,.q-4-11,.q-4-7,.q-4-3,.q-3-12,.q-3-8,.q-3-4{
+  .play3,  .q3,.q-2-13,.q-2-9,.q-2-5,.q-2-1,.q-1-10,.q-1-6,.q-1-2,.q-4-11,.q-4-7,.q-4-3,.q-3-12,.q-3-8,.q-3-4{
     border:2px solid  #409EFF;
   }
- .q4,.q-3-13,.q-3-9,.q-3-5,.q-3-1,.q-2-10,.q-2-6,.q-2-2,.q-1-11,.q-1-7,.q-1-3,.q-4-12,.q-4-8,.q-4-4{
+  .play4, .q4,.q-3-13,.q-3-9,.q-3-5,.q-3-1,.q-2-10,.q-2-6,.q-2-2,.q-1-11,.q-1-7,.q-1-3,.q-4-12,.q-4-8,.q-4-4{
     border:2px solid   #67C23A;
   }
 </style>
@@ -347,6 +347,7 @@
 
     data() {
       return {
+        play:null,
         mycode:null,
         socket:null,
         playList:[],
@@ -415,12 +416,26 @@
 
         if(data.type=='insert'){
           this.playList=data.playList;
-          this.status=1;
+          if(data.isopen==1){
+            this.status=3;
+          }else{
+            this.status=1;
+          }
+
           this.$forceUpdate()
         }
+
+
         if(data.type=='select'){
           this.mycode=data.code;
           this.status=2;
+          var self=this;
+          for(var i in  this.playList) {
+            var p = this.playList[i];
+            if (p.code == data.code) {
+              self.play=p;
+            }
+          }
         }
         if(data.type=='start'){
           this.status=3;
@@ -437,16 +452,17 @@
           $(".q-"+q.h+"-"+q.w).append(this.getBtn(q))
         }
 
-        if(data.type=='select'||data.type=='insert'){
+        if(data.type=='selectOne'||data.type=='insert'){
           for(var i in  this.playList){
             var p=this.playList[i];
             if(data.type=='insert'&& p.use==0){
               continue;
             }
-            if(data.type=='select' &&p.code==data.code){
-              p.use=1;
+            if(data.type=='selectOne' &&p.code==data.code){
+              p.use=data.u;
+
             }
-            if(data.type=='select' &&p.code!=data.code){
+            if(data.type=='selectOne' &&p.code!=data.code){
               continue;
             }
 
@@ -468,8 +484,24 @@
 
       },getBtn(q){
         $("."+q.code).remove();
+        var bcode=null;
+        switch(q.p){
+          case 1:
+            bcode="#F56C6C";
+            break;
+          case 2:
+            bcode="#E6A23C";
+            break;
+          case 3:
+            bcode="#409EFF";
+            break;
+          case 4:
+            bcode="#67C23A";
+            break;
+        }
+
         var self=this;
-        var btn=$("<button class='"+q.code+"'>"+q.name+"</button>");
+        var btn=$("<button class='"+q.code+"' style='background-color: "+bcode+";width: 20px;height: 20px;padding: 0px;' >"+q.name+"</button>");
         btn.click(function () {
           var myclas=$(this).attr("class");
           self.selectBtn(myclas);
