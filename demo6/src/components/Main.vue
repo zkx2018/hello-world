@@ -3,7 +3,7 @@
   <el-container>
     <el-header>header</el-header>
     <el-container>
-      <el-aside>aside</el-aside>
+<!--      <el-aside>aside</el-aside>-->
       <el-main>
         <el-container>
           <el-main>
@@ -23,7 +23,7 @@
             </td> <td  >
               &nbsp;
             </td>
-               <td  ><i class="el-icon-setting"></i></td> <td>&nbsp;</td> <td  colspan="2" rowspan="2" >&nbsp;</td>  </tr>
+               <td  ><i class="el-icon-setting"></i></td> <td><i class="el-icon-star-off"></i></td> <td  colspan="2" rowspan="2" >&nbsp;</td>  </tr>
 
 
               <tr>
@@ -37,7 +37,7 @@
             </td> <td>&nbsp;</td> </tr>
 
 
-              <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td >
+              <tr><td> <i class="el-icon-star-off"></i></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td >
               &nbsp;
             </td> <td>&nbsp;</td> <td  >
               &nbsp;
@@ -83,7 +83,7 @@
               &nbsp;
             </td> <td  >
               &nbsp;
-            </td> <td  ><i class="el-icon-star-off"></i></td> <td  >
+            </td> <td  ><button type="button" class="el-button el-button--success is-circle"></button></td> <td >
               &nbsp;
             </td> <td  >
               &nbsp;
@@ -129,7 +129,8 @@
               &nbsp;
             </td> <td>&nbsp;</td> <td  >
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td><i class="el-icon-star-off"></i></td>
+            </tr>
 
               <tr>
 
@@ -141,9 +142,10 @@
               &nbsp;
             </td> <td>&nbsp;</td> <td>&nbsp;</td> <td  >
               &nbsp;
-            </td> <td>&nbsp;</td>    <td colspan="2" rowspan="2"  >&nbsp;</td></tr>
+            </td> <td>&nbsp;</td>    <td colspan="2" rowspan="2"  >&nbsp;</td>
+              </tr>
 
-              <tr>  <td>&nbsp;</td> <td  ><i class="el-icon-setting"></i></td> <td >
+              <tr>  <td><i class="el-icon-star-off"></i></td> <td  ><i class="el-icon-setting"></i></td> <td >
               &nbsp;
             </td> <td  >
               &nbsp;
@@ -159,44 +161,31 @@
             </tr>
             </table>
 
-            <table style="line-height: 50px;position:absolute;  top: 160px;">
-              <tr>
-                <td colspan="2" rowspan="2" class="q1">&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-10">
-                &nbsp;
-              </td> <td class="qp q-1-11">
-                &nbsp;
-              </td> <td class="qp q-1-12">
-                &nbsp;
-              </td> <td class="qp q-1-13">
-                &nbsp;
-              </td> <td class="qp q-2-1">
-                &nbsp;
-              </td> <td class="qp q-2-2">
-                &nbsp;
-              </td>
-                <td class="qp q-2-3"></td> <td>&nbsp;</td> <td  colspan="2" rowspan="2" class="q2">&nbsp;</td>  </tr>
-
-
-
-
-              <tr>
-
-                <td>&nbsp;</td> <td class="qp q-1-9">
-                &nbsp;
-              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q2 h-2-1">
-                &nbsp;
-              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-4">
-                &nbsp;
-              </td> <td>&nbsp;</td> </tr>
-
-
-              <tr><td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-8">
-                &nbsp;
-              </td> <td>&nbsp;</td> <td class="qp q2 h-2-2">
-                &nbsp;
-              </td> <td>&nbsp;</td> <td class="qp q-2-5">
-                &nbsp;
-              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td class="qp q-1-3"></td> <td class="qp q-1-4">
+            <table style="line-height: 50px; position: absolute; top: 160px;"><tr><td colspan="2" rowspan="2" class="q1 home1">&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-10">
+              &nbsp;
+            </td> <td class="qp q-1-11">
+              &nbsp;
+            </td> <td class="qp q-1-12">
+              &nbsp;
+            </td> <td class="qp q-1-13">
+              &nbsp;
+            </td> <td class="qp q-2-1">
+              &nbsp;
+            </td> <td class="qp q-2-2">
+              &nbsp;
+            </td> <td class="qp q-2-3"></td> <td class="qp q-2-0">&nbsp;</td> <td colspan="2" rowspan="2" class="q2 home2">&nbsp;</td></tr> <tr><td>&nbsp;</td> <td class="qp q-1-9">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q2 h-2-1">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-2-4">
+              &nbsp;
+            </td> <td>&nbsp;</td></tr> <tr><td class="qp  q-1-0">&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-8">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td class="qp q2 h-2-2">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td class="qp q-2-5">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr> <tr><td class="qp q-1-3"></td> <td class="qp q-1-4">
               &nbsp;
             </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-1-7"></td> <td></td> <td class="qp q2 h-2-3">
               &nbsp;
@@ -282,48 +271,42 @@
               &nbsp;
             </td> <td>&nbsp;</td> <td class="qp q-3-8">
               &nbsp;
-            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
-
-              <tr>
-
-                <td colspan="2" rowspan="2" class="q4">&nbsp;</td>
-
-                <td>&nbsp;</td> <td class="qp q-4-4">
-                &nbsp;
-              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-1">
-                &nbsp;
-              </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-9">
-                &nbsp;
-              </td> <td>&nbsp;</td>    <td colspan="2" rowspan="2" class="q3">&nbsp;</td></tr>
-
-              <tr>  <td>&nbsp;</td> <td class="qp q-4-3"></td> <td class="qp q-4-2">
-                &nbsp;
-              </td> <td class="qp q-4-1">
-                &nbsp;
-              </td> <td class="qp q-3-13">
-                &nbsp;
-              </td> <td class="qp q-3-12">
-                &nbsp;
-              </td> <td class="qp q-3-11">
-                &nbsp;
-              </td> <td class="qp q-3-10">
-                &nbsp;
-              </td> <td>&nbsp;</td>
-              </tr>
-            </table>
-
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-0">&nbsp;</td></tr> <tr><td colspan="2" rowspan="2" class="q4 home4">&nbsp;</td> <td>&nbsp;</td> <td class="qp q-4-4">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q4 h-4-1">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="qp q-3-9">
+              &nbsp;
+            </td> <td>&nbsp;</td> <td colspan="2" rowspan="2" class="q3 home3">&nbsp;</td></tr> <tr><td class="qp q-4-0">&nbsp;</td> <td class="qp q-4-3"></td> <td class="qp q-4-2">
+              &nbsp;
+            </td> <td class="qp q-4-1">
+              &nbsp;
+            </td> <td class="qp q-3-13">
+              &nbsp;
+            </td> <td class="qp q-3-12">
+              &nbsp;
+            </td> <td class="qp q-3-11">
+              &nbsp;
+            </td> <td class="qp q-3-10">
+              &nbsp;
+            </td> <td>&nbsp;</td></tr></table>
           </el-main>
           <el-footer>
-
-            <el-button @click.native="login"  >连接</el-button>
-            <template v-for="play in playList" >
-
-              <el-button @click.native="select(play.code)" v-if="play.use==0" >{{play.name}}</el-button>
-
+            <template v-if="status==0">
+              <el-button @click.native="login"   >连接</el-button>
             </template>
-            <el-button @click.native="start"  >准备</el-button>
-            <el-button @click.native="yao"  >摇色子</el-button>
-            观战
+            <template v-if="status==1">
+              <template v-for="play in playList" >
+                <el-button @click.native="select(play.code)" v-if="play.use==0" >{{play.name}}</el-button>
+              </template>
+            </template>
+            <template v-if="status==2">
+            <el-button @click.native="start"  >开始</el-button>
+            </template>
+            <template v-if="status==3">
+              <el-button @click.native="yao"  >摇色子</el-button>
+            </template>
+
           </el-footer>
         </el-container>
       </el-main>
@@ -361,11 +344,14 @@
   import  $ from 'jquery'
   export default {
     name: 'Main',
-    socket:null,
-    playList:[],
-    status:0,
+
     data() {
       return {
+        mycode:null,
+        socket:null,
+        playList:[],
+        status:0,
+        code:null,//归谁操作， 减少服务器压力
         msg: 'Welcome to Your Vue.js App'
       }
     },created () {
@@ -380,10 +366,15 @@
         this.send({type:"start"});
       },
       yao:function(){
-        this.send({type:"yao"});
+        if(this.mycode==this.code){
+          this.send({type:"yao"});
+        }
       },
       selectBtn:function(play){
-        this.send({type:"selectBtn",playcode:play});
+        if(this.mycode==this.code){
+          this.send({type:"selectBtn",playcode:play});
+
+        }
       },
       select:function(play){
         this.send({type:"select",playcode:play});
@@ -424,24 +415,16 @@
 
         if(data.type=='insert'){
           this.playList=data.playList;
+          this.status=1;
           this.$forceUpdate()
         }
-        if(data.select=='select'){
-            for(var i in  this.playList){
-               var p=this.playList[i];
-               if(p.code=data.code){
-                 p.use=1;
-               }
-            }
+        if(data.type=='select'){
+          this.mycode=data.code;
+          this.status=2;
         }
         if(data.type=='start'){
-            for(var i in this.playList){
-              var play=this.playList[i];
-              for(var j in play.qizis){
-                var q=play.qizis[j];
-                $(".q-"+q.h+"-"+q.w).append(this.getBtn(q))
-              }
-            }
+          this.status=3;
+          this.code=data.code;
         }
 
         if(data.type=='yao'){
@@ -450,11 +433,41 @@
 
         if(data.type=='move'){
           var q=data.btn;
-          $("."+q.code).remove();
+          this.code=data.code;
           $(".q-"+q.h+"-"+q.w).append(this.getBtn(q))
         }
 
+        if(data.type=='select'||data.type=='insert'){
+          for(var i in  this.playList){
+            var p=this.playList[i];
+            if(data.type=='insert'&& p.use==0){
+              continue;
+            }
+            if(data.type=='select' &&p.code==data.code){
+              p.use=1;
+            }
+            if(data.type=='select' &&p.code!=data.code){
+              continue;
+            }
+
+            for(var j in p.qizis){
+              var q=p.qizis[j];
+
+              if(q.h==0&&q.w==0){//在家
+                $(".home"+q.p).append(this.getBtn(q))
+              }else if(q.h==0&&q.w==1){
+                //完成
+              }else{
+                //出门
+                $(".q-"+q.h+"-"+q.w).append(this.getBtn(q))
+              }
+            }
+
+          }
+        }
+
       },getBtn(q){
+        $("."+q.code).remove();
         var self=this;
         var btn=$("<button class='"+q.code+"'>"+q.name+"</button>");
         btn.click(function () {
