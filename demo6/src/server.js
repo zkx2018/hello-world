@@ -2,6 +2,15 @@ const http = require("http");
 const ws = require('nodejs-websocket');
 //12  [0,12][1,12][2,12][3,12]
 //声明4个玩家
+var tiaoyue1=["4-13","4-9","4-5","4-1","3-10","3-6","3-2","2-11","2-7","2-3","1-12","1-8","1-4"];
+var tiaoyue2=["1-13","1-9","1-5","1-1","4-10","4-6","4-2","3-11","3-7","3-3","2-12","2-8","2-4"];
+var tiaoyue3=["2-13","2-9","2-5","2-1","1-10","1-6","1-2","4-11","4-7","4-3","3-12","3-8","3-4"];
+var tiaoyue4=["3-13","3-9","3-5","3-1","2-10","2-6","2-2","1-11","1-7","1-3","4-12","4-8","4-4"];
+
+var tiao1=["2-7","3-6"];
+var tiao2=["3-7","4-6"];
+var tiao3=["4-7","1-6"];
+var tiao4=["1-7","2-6"];
 var shaizi=0;
 
 var play1={
@@ -78,6 +87,23 @@ const sendServerOne = (connect,data)=>{
   console.log("服务器输出："+str);
   connect.sendText(str);
 };
+// 当前坐标是否有飞机
+const  boom=(q)=>{
+  sendServer({type:"move",btn:q});
+}
+const  teshu=(q)=>{
+  boom(q)
+  if(tiaoyue1){
+    tiaoyue1
+  }
+  if(tiao){
+    tiao
+    tiaoyue1
+  }
+
+
+
+}
 const  next=(playcode)=>{
   var nextcode=null;
   if(playcode=="play1"){
@@ -217,6 +243,8 @@ const server = ws.createServer((connect)=>{
             }else{
               yaocode=next(yaocode);
             }
+            q=teshu(q)
+
             sendServer({type:"move",btn:q,code:yaocode});
             break;
           case 'button':
