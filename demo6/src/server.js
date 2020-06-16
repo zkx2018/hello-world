@@ -6,7 +6,10 @@ var tiaoyue1=["4-13","4-9","4-5","4-1","3-10","3-6","3-2","2-11","2-7","2-3","1-
 var tiaoyue2=["1-13","1-9","1-5","1-1","4-10","4-6","4-2","3-11","3-7","3-3","2-12","2-8","2-4"];
 var tiaoyue3=["2-13","2-9","2-5","2-1","1-10","1-6","1-2","4-11","4-7","4-3","3-12","3-8","3-4"];
 var tiaoyue4=["3-13","3-9","3-5","3-1","2-10","2-6","2-2","1-11","1-7","1-3","4-12","4-8","4-4"];
-
+tiaoyue1.reverse();
+tiaoyue2.reverse();
+tiaoyue3.reverse();
+tiaoyue4.reverse();
 var tiao1=["2-7","3-6"];
 var tiao2=["3-7","4-6"];
 var tiao3=["4-7","1-6"];
@@ -89,20 +92,69 @@ const sendServerOne = (connect,data)=>{
 };
 // 当前坐标是否有飞机
 const  boom=(q)=>{
-  sendServer({type:"move",btn:q});
+
+  for(var i in  playList){
+    var play=playList[i];
+    if(play.use==0){
+      continue;
+    }
+    if(play.code=='play'+q.p){
+      continue;
+    }
+
+    for(var j in  play.qizis){
+      var dq=play.qizis[j];
+      if(dq.h==q.h&&dq.w==q.w){
+        dq.h=0;
+        dq.w=0;
+        sendServer({type:"move",btn:dq});
+      }
+    }
+
+  }
+
+
 }
 const  teshu=(q)=>{
   boom(q)
-  if(tiaoyue1){
-    tiaoyue1
+  var arr=[];
+  var arr2=[];
+  if(q.p==1){
+    arr=tiaoyue1;
+    arr2=tiao1;
   }
-  if(tiao){
-    tiao
-    tiaoyue1
+  if(q.p==2){
+    arr=tiaoyue2;
+    arr2=tiao2;
   }
-
-
-
+  if(q.p==3){
+    arr=tiaoyue3;
+    arr2=tiao3;
+  }
+  if(q.p==4){
+    arr=tiaoyue4;
+    arr2=tiao4;
+  }
+  //if(arr.indexOf(要查找的元素)>-1){元素存在的操作};
+  var i1=arr.indexOf(q.h+"-"+q.w)
+  if(i1>-1&&i1!=arr.length-1){
+    var c=arr[i1+1].split("-");
+    q.h=c[0];
+    q.w=c[1];
+    boom(q)
+    if((q.h+"-"+q.w)==arr2[0]){
+      var c2=arr2[1].split("-");
+      q.h=c2[0];
+      q.w=c2[1];
+      boom(q)
+    }
+  }else  if((q.h+"-"+q.w)==arr2[0]){
+    var c2=arr2[1].split("-");
+    q.h=c2[0];
+    q.w=c2[1];
+    boom(q)
+  }
+  return q;
 }
 const  next=(playcode)=>{
   var nextcode=null;

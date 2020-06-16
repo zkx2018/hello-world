@@ -448,7 +448,9 @@
 
         if(data.type=='move'){
           var q=data.btn;
-          this.code=data.code;
+          if(data.code){
+            this.code=data.code;
+          }
           $(".q-"+q.h+"-"+q.w).append(this.getBtn(q))
         }
 
